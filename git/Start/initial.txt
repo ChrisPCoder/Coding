@@ -1,0 +1,215 @@
+
+Famil@DESKTOP-C71B0JF MINGW32 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Famil@DESKTOP-C71B0JF MINGW32 ~
+$ dir ..
+All\ Users  Default  Default\ User  Famil  Programme  Public  desktop.ini
+
+Famil@DESKTOP-C71B0JF MINGW32 ~
+$ dir
+Anwendungsdaten
+AppData
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Druckumgebung
+Eigene\ Dateien
+Favorites
+IntelGraphicsProfiles
+Links
+Lokale\ Einstellungen
+Music
+NTUSER.DAT
+NTUSER.DAT{45ac5112-6b5c-11ee-aacf-80ce8f4a34b7}.TM.blf
+NTUSER.DAT{45ac5112-6b5c-11ee-aacf-80ce8f4a34b7}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{45ac5112-6b5c-11ee-aacf-80ce8f4a34b7}.TMContainer00000000000000000002.regtrans-ms
+Netzwerkumgebung
+OneDrive
+Pictures
+Recent
+Saved\ Games
+Searches
+SendTo
+Startmenü
+Videos
+Vorlagen
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+Famil@DESKTOP-C71B0JF MINGW32 ~
+$ cd desktop
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop
+$ dir
+Bilder                OpenOffice\ 4.1.15\ (de)\ Installation\ Files
+CARL                  Scratch\ 3.lnk
+DaVinci\ Resolve.lnk  Thomas
+Google\ Docs.lnk      Thomas\ -\ Edge.lnk
+Google\ Sheets.lnk    desktop.ini
+Google\ Slides.lnk
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop
+$ cd thomas
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/thomas
+$ dir
+repo
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/thomas
+$ git init
+Initialized empty Git repository in C:/Users/Famil/Desktop/Thomas/.git/
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/thomas (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/thomas (master)
+$ cd..
+bash: cd..: command not found
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/thomas (master)
+$ cd ..
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop
+$ cd repository
+bash: cd: repository: No such file or directory
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop
+$ dir
+Bilder                OpenOffice\ 4.1.15\ (de)\ Installation\ Files
+CARL                  Scratch\ 3.lnk
+DaVinci\ Resolve.lnk  Thomas
+Google\ Docs.lnk      Thomas\ -\ Edge.lnk
+Google\ Sheets.lnk    desktop.ini
+Google\ Slides.lnk
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop
+$ cd Thomas
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas
+$ cd repository
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository
+$ git clone https://github.com/ChrisPCoder/Coding.git
+Cloning into 'Coding'...
+warning: You appear to have cloned an empty repository.
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository
+$ cd coding
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository/coding (main)
+$ echo echo "# Coding" > README.md
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository/coding (main)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository/coding (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository/coding (main)
+$ git commit -m "Initial commit for my repository"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Famil@DESKTOP-C71B0JF.(none)')
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository/coding (main)
+$ git config user.email "thomas.c.preuss@gmail.com"
+git config user.name "ChrisPCoder"
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository/coding (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository/coding (main)
+$ git commit -m "Initial commit for my repository"
+[main (root-commit) e000640] Initial commit for my repository
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository/coding (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 247 bytes | 247.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ChrisPCoder/Coding.git
+ * [new branch]      main -> main
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository/coding (main)
+$ git checkout -b "ps2024_001"
+Switched to a new branch 'ps2024_001'
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository/coding (ps2024_001)
+$ git push
+fatal: The current branch ps2024_001 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin ps2024_001
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository/coding (ps2024_001)
+$ git push --set-upstream origin ps2024_001
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'ps2024_001' on GitHub by visiting:
+remote:      https://github.com/ChrisPCoder/Coding/pull/new/ps2024_001
+remote:
+To https://github.com/ChrisPCoder/Coding.git
+ * [new branch]      ps2024_001 -> ps2024_001
+branch 'ps2024_001' set up to track 'origin/ps2024_001'.
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository/coding (ps2024_001)
+$ git push
+Everything up-to-date
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository/coding (ps2024_001)
+$ git status
+On branch ps2024_001
+Your branch is up to date with 'origin/ps2024_001'.
+
+nothing to commit, working tree clean
+
+Famil@DESKTOP-C71B0JF MINGW32 ~/desktop/Thomas/repository/coding (ps2024_001)
+$
