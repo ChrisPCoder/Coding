@@ -1,0 +1,591 @@
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding> & c:/Users/Famil/Desktop/Thomas/repository/Coding/enviroments/py_project/venv/Scripts/python.exe c:/Users/Famil/Desktop/Thomas/repository/Coding/projects/First_steps.py
+Traceback (most recent call last):
+  File "c:\Users\Famil\Desktop\Thomas\repository\Coding\projects\First_steps.py", line 8, in <module>
+    root = tk.Tk()
+  File "C:\Users\Famil\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2459, in __init__
+^^^^^^^^^^
+_tkinter.TclError: Can't find a usable init.tcl in the following directories:
+    C:/Users/Famil/AppData/Local/Programs/Python/Python313/lib/tcl8.6 C:/Users/Famil/AppData/Local/Programs/Python/lib/tcl8.6 C:/Users/Famil/AppData/Local/Programs/lib/tcl8.6 C:/Users/Famil/AppData/Local/Programs/Python/library C:/Users/Famil/AppData/Local/Programs/library C:/Users/Famil/AppData/Local/Programs/tcl8.6.14/library C:/Users/Famil/AppData/Local/tcl8.6.14/library
+
+
+
+This probably means that Tcl wasn't installed properly.
+
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding> & c:/Users/Famil/Desktop/Thomas/repository/Coding/enviroments/py_project/venv/Scripts/python.exe c:/Users/Famil/Desktop/Thomas/repository/Coding/projects/First_steps.py
+Traceback (most recent call last):
+  File "c:\Users\Famil\Desktop\Thomas\repository\Coding\projects\First_steps.py", line 8, in <module>
+    root = tk.Tk()
+  File "C:\Users\Famil\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2459, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+              ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: Can't find a usable init.tcl in the following directories:
+    C:/Users/Famil/AppData/Local/Programs/Python/Python313/lib/tcl8.6 C:/Users/Famil/AppData/Local/Programs/Python/lib/tcl8.6 C:/Users/Famil/AppData/Local/Programs/lib/tcl8.6 C:/Users/Famil/AppData/Local/Programs/Python/library C:/Users/Famil/AppData/Local/Programs/library C:/Users/Famil/AppData/Local/Programs/tcl8.6.14/library C:/Users/Famil/AppData/Local/tcl8.6.14/library
+
+
+
+This probably means that Tcl wasn't installed properly.
+
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:15                enviroments
+d-----        21.11.2024     11:41                git
+d-----        21.11.2024     13:18                projects
+d-----        20.11.2024     12:52                snipits
+-a----        21.11.2024     11:41            183 Current Projects.md
+-a----        20.11.2024     11:59             14 README.md
+
+
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding> cd enviroments
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:16                py_project
+
+
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments> cd py_project
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:47                venv
+
+
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project> cd venv
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:16                Include
+d-----        21.11.2024     12:16                Lib
+d-----        21.11.2024     12:47                Scripts
+d-----        21.11.2024     12:47                share
+-a----        21.11.2024     12:16             71 .gitignore
+-a----        21.11.2024     12:16            360 pyvenv.cfg
+
+
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv> cd scripts
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:46                __pycache__
+-a----        21.11.2024     12:17           2167 activate
+-a----        21.11.2024     12:17           1045 activate.bat
+-a----        21.11.2024     12:17           2314 activate.fish
+-a----        07.10.2024     11:27          26189 Activate.ps1
+-a----        07.10.2024     11:26            393 deactivate.bat
+-a----        21.11.2024     12:47         108449 debugpy.exe
+-a----        21.11.2024     12:47         108456 ipython.exe
+-a----        21.11.2024     12:47         108456 ipython3.exe
+-a----        21.11.2024     12:47         108455 jupyter-kernel.exe
+-a----        21.11.2024     12:47         108493 jupyter-kernelspec.exe
+-a----        21.11.2024     12:47         108451 jupyter-migrate.exe
+-a----        21.11.2024     12:47         108472 jupyter-run.exe
+-a----        21.11.2024     12:47         108456 jupyter-troubleshoot.exe
+-a----        21.11.2024     12:47         108451 jupyter.exe
+-a----        21.11.2024     12:17         108453 pip.exe
+-a----        21.11.2024     12:17         108453 pip3.13.exe
+-a----        21.11.2024     12:17         108453 pip3.exe
+-a----        21.11.2024     12:46         108447 pygmentize.exe
+-a----        07.10.2024     11:27         250640 python.exe
+-a----        07.10.2024     11:27         247056 pythonw.exe
+-a----        21.11.2024     12:46          28115 pywin32_postinstall.py
+-a----        21.11.2024     12:46           3844 pywin32_testall.py
+
+
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> exec activate
+exec : Die Benennung "exec" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausführbaren Programms erkannt. 
+Überprüfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1
++ exec activate
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (exec:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> execute activate
+execute : Die Benennung "execute" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausführbaren Programms erkannt. 
+Überprüfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1
++ execute activate
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (execute:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> run activate
+run : Die Benennung "run" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausführbaren Programms erkannt. 
+Überprüfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1
++ run activate
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (run:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> activate
+activate : Die Datei "C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\Scripts\Activate.ps1" kann nicht geladen werden, 
+da die Ausführung von Skripts auf diesem System deaktiviert ist. Weitere Informationen finden Sie unter "about_Execution_Policies"
+(https:/go.microsoft.com/fwlink/?LinkID=135170).
+In Zeile:1 Zeichen:1
++ activate
++ ~~~~~~~~
+    + CategoryInfo          : Sicherheitsfehler: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> ^C
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> .\env\Scripts\Activate
+.\env\Scripts\Activate : Die Benennung ".\env\Scripts\Activate" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines 
+ausführbaren Programms erkannt. Überprüfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie     
+den Vorgang.
+In Zeile:1 Zeichen:1
++ .\env\Scripts\Activate
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\env\Scripts\Activate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> .\Activate
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> .\Activate
+.\Activate : Die Datei "C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts\Activate.ps1" kann nicht geladen
+werden, da die Ausführung von Skripts auf diesem System deaktiviert ist. Weitere Informationen finden Sie unter "about_Execution_Policies"
+(https:/go.microsoft.com/fwlink/?LinkID=135170).
+In Zeile:1 Zeichen:1
++ .\Activate
++ ~~~~~~~~~~
+    + CategoryInfo          : Sicherheitsfehler: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> ^C
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:46                __pycache__
+-a----        21.11.2024     12:17           2167 activate
+-a----        21.11.2024     12:17           1045 activate.bat
+-a----        21.11.2024     12:17           2314 activate.fish
+-a----        07.10.2024     11:27          26189 Activate.ps1
+-a----        07.10.2024     11:26            393 deactivate.bat
+-a----        21.11.2024     12:47         108449 debugpy.exe
+-a----        21.11.2024     12:47         108456 ipython.exe
+-a----        21.11.2024     12:47         108456 ipython3.exe
+-a----        21.11.2024     12:47         108455 jupyter-kernel.exe
+-a----        21.11.2024     12:47         108493 jupyter-kernelspec.exe
+-a----        21.11.2024     12:47         108451 jupyter-migrate.exe
+-a----        21.11.2024     12:47         108472 jupyter-run.exe
+-a----        21.11.2024     12:47         108456 jupyter-troubleshoot.exe
+-a----        21.11.2024     12:47         108451 jupyter.exe
+-a----        21.11.2024     12:17         108453 pip.exe
+-a----        21.11.2024     12:17         108453 pip3.13.exe
+-a----        21.11.2024     12:17         108453 pip3.exe
+-a----        21.11.2024     12:46         108447 pygmentize.exe
+-a----        07.10.2024     11:27         250640 python.exe
+-a----        07.10.2024     11:27         247056 pythonw.exe
+-a----        21.11.2024     12:46          28115 pywin32_postinstall.py
+-a----        21.11.2024     12:46           3844 pywin32_testall.py
+
+
+PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> .\Activate                     
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> cd..
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:16                Include
+d-----        21.11.2024     12:16                Lib
+d-----        21.11.2024     12:47                Scripts
+d-----        21.11.2024     12:47                share
+-a----        21.11.2024     12:16             71 .gitignore
+-a----        21.11.2024     12:16            360 pyvenv.cfg
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv> cd ..
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:47                venv
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project> cd ..
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:16                py_project
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments> cd ..
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:15                enviroments
+d-----        21.11.2024     11:41                git
+d-----        21.11.2024     13:18                projects
+d-----        20.11.2024     12:52                snipits
+-a----        21.11.2024     11:41            183 Current Projects.md
+-a----        20.11.2024     11:59             14 README.md
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding> cd projects
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\projects> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\projects
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        21.11.2024     13:18            515 First_steps.py
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\projects> First_steps.pyFirst_steps.py^C
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\projects> python .\First_steps.py
+Traceback (most recent call last):
+  File "C:\Users\Famil\Desktop\Thomas\repository\Coding\projects\First_steps.py", line 8, in <module>
+    root = tk.Tk()
+  File "C:\Users\Famil\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2459, in __init__        
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+              ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: Can't find a usable init.tcl in the following directories:
+    C:/Users/Famil/AppData/Local/Programs/Python/Python313/lib/tcl8.6 C:/Users/Famil/AppData/Local/Programs/Python/lib/tcl8.6 C:/Users/Famil/AppData/Local/Programs/lib/tcl8.6 C:/Users/Famil/AppData/Local/Programs/Python/library C:/Users/Famil/AppData/Local/Programs/library C:/Users/Famil/AppData/Local/Programs/tcl8.6.14/library C:/Users/Famil/AppData/Local/tcl8.6.14/library
+
+
+
+This probably means that Tcl wasn't installed properly.
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\projects> This probably means that Tcl wasn't installed properly.^C
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\projects> .\venv\Scripts\pip install tcl
+.\venv\Scripts\pip : Die Benennung ".\venv\Scripts\pip" wurde nicht als Name eines Cmdlet, einer Funktion, einer 
+Skriptdatei oder eines ausführbaren Programms erkannt. Überprüfen Sie die Schreibweise des Namens, oder ob der Pfad    
+korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1
++ .\venv\Scripts\pip install tcl
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\venv\Scripts\pip:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\projects> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\projects
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        21.11.2024     13:18            515 First_steps.py
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\projects> cd ..
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:15                enviroments
+d-----        21.11.2024     11:41                git
+d-----        21.11.2024     13:18                projects
+d-----        20.11.2024     12:52                snipits
+-a----        21.11.2024     11:41            183 Current Projects.md
+-a----        20.11.2024     11:59             14 README.md
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding> cd snipits
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\snipits> dir
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\snipits> dir
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\snipits> cd ..
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:15                enviroments
+d-----        21.11.2024     11:41                git
+d-----        21.11.2024     13:18                projects
+d-----        20.11.2024     12:52                snipits
+-a----        21.11.2024     11:41            183 Current Projects.md
+-a----        20.11.2024     11:59             14 README.md
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding> cd enviroments
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:16                py_project
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:16                py_project
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments> cd py_project
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:47                venv
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project> cd venv
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:16                Include
+d-----        21.11.2024     12:16                Lib
+d-----        21.11.2024     12:47                Scripts
+d-----        21.11.2024     12:47                share
+-a----        21.11.2024     12:16             71 .gitignore
+-a----        21.11.2024     12:16            360 pyvenv.cfg
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv> .\venv\Scripts\pip install tcl
+.\venv\Scripts\pip : Die Benennung ".\venv\Scripts\pip" wurde nicht als Name eines Cmdlet, einer Funktion, einer 
+Skriptdatei oder eines ausführbaren Programms erkannt. Überprüfen Sie die Schreibweise des Namens, oder ob der Pfad    
+korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1
++ .\venv\Scripts\pip install tcl
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\venv\Scripts\pip:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:16                Include
+d-----        21.11.2024     12:16                Lib
+d-----        21.11.2024     12:47                Scripts
+d-----        21.11.2024     12:47                share
+-a----        21.11.2024     12:16             71 .gitignore
+-a----        21.11.2024     12:16            360 pyvenv.cfg
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv> cd scripts
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:46                __pycache__
+-a----        21.11.2024     12:17           2167 activate
+-a----        21.11.2024     12:17           1045 activate.bat
+-a----        21.11.2024     12:17           2314 activate.fish
+-a----        07.10.2024     11:27          26189 Activate.ps1
+-a----        07.10.2024     11:26            393 deactivate.bat
+-a----        21.11.2024     12:47         108449 debugpy.exe
+-a----        21.11.2024     12:47         108456 ipython.exe
+-a----        21.11.2024     12:47         108456 ipython3.exe
+-a----        21.11.2024     12:47         108455 jupyter-kernel.exe
+-a----        21.11.2024     12:47         108493 jupyter-kernelspec.exe
+-a----        21.11.2024     12:47         108451 jupyter-migrate.exe
+-a----        21.11.2024     12:47         108472 jupyter-run.exe
+-a----        21.11.2024     12:47         108456 jupyter-troubleshoot.exe
+-a----        21.11.2024     12:47         108451 jupyter.exe
+-a----        21.11.2024     12:17         108453 pip.exe
+-a----        21.11.2024     12:17         108453 pip3.13.exe
+-a----        21.11.2024     12:17         108453 pip3.exe
+-a----        21.11.2024     12:46         108447 pygmentize.exe
+-a----        07.10.2024     11:27         250640 python.exe
+-a----        07.10.2024     11:27         247056 pythonw.exe
+-a----        21.11.2024     12:46          28115 pywin32_postinstall.py
+-a----        21.11.2024     12:46           3844 pywin32_testall.py
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> .\pip install tcl       
+Collecting tcl
+  Downloading Tcl-0.2-py3-none-any.whl.metadata (1.0 kB)
+Downloading Tcl-0.2-py3-none-any.whl (2.4 kB)
+Installing collected packages: tcl
+Successfully installed tcl-0.2
+
+[notice] A new release of pip is available: 24.2 -> 24.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:46                __pycache__
+-a----        21.11.2024     12:17           2167 activate
+-a----        21.11.2024     12:17           1045 activate.bat
+-a----        21.11.2024     12:17           2314 activate.fish
+-a----        07.10.2024     11:27          26189 Activate.ps1
+-a----        07.10.2024     11:26            393 deactivate.bat
+-a----        21.11.2024     12:47         108449 debugpy.exe
+-a----        21.11.2024     12:47         108456 ipython.exe
+-a----        21.11.2024     12:47         108456 ipython3.exe
+-a----        21.11.2024     12:47         108455 jupyter-kernel.exe
+-a----        21.11.2024     12:47         108493 jupyter-kernelspec.exe
+-a----        21.11.2024     12:47         108451 jupyter-migrate.exe
+-a----        21.11.2024     12:47         108472 jupyter-run.exe
+-a----        21.11.2024     12:47         108456 jupyter-troubleshoot.exe
+-a----        21.11.2024     12:47         108451 jupyter.exe
+-a----        21.11.2024     12:17         108453 pip.exe
+-a----        21.11.2024     12:17         108453 pip3.13.exe
+-a----        21.11.2024     12:17         108453 pip3.exe
+-a----        21.11.2024     12:46         108447 pygmentize.exe
+-a----        07.10.2024     11:27         250640 python.exe
+-a----        07.10.2024     11:27         247056 pythonw.exe
+-a----        21.11.2024     12:46          28115 pywin32_postinstall.py
+-a----        21.11.2024     12:46           3844 pywin32_testall.py
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv\scripts> cd ..
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project\venv> cd ..
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:47                venv
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments\py_project> cd ..
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\enviroments> cd ..
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.11.2024     12:15                enviroments
+d-----        21.11.2024     11:41                git
+d-----        21.11.2024     13:18                projects
+d-----        20.11.2024     12:52                snipits
+-a----        21.11.2024     11:41            183 Current Projects.md
+-a----        20.11.2024     11:59             14 README.md
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding> cd projects
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\projects> dir
+
+
+    Verzeichnis: C:\Users\Famil\Desktop\Thomas\repository\Coding\projects
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        21.11.2024     13:18            515 First_steps.py
+
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\projects> .\ First_steps.py                                  
+.\ : Die Benennung ".\" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausführbaren   
+Programms erkannt. Überprüfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und 
+wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1
++ .\ First_steps.py
++ ~~
+    + CategoryInfo          : ObjectNotFound: (.\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\projects> .\ First_steps   
+.\ : Die Benennung ".\" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausführbaren 
+Programms erkannt. Überprüfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und    
+wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1
++ .\ First_steps
++ ~~
+    + CategoryInfo          : ObjectNotFound: (.\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\projects> .\First_steps 
+.\First_steps : Die Benennung ".\First_steps" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei 
+oder eines ausführbaren Programms erkannt. Überprüfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist    
+(sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1
++ .\First_steps
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\First_steps:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\projects> .\First_steps.py
+(venv) PS C:\Users\Famil\Desktop\Thomas\repository\Coding\projects> 
